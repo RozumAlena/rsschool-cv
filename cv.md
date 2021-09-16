@@ -30,24 +30,20 @@ function nicknameGenerator(name){
 }
  ```
 ## Work experience
-**07/2015 – current** - project manager, LLC "Vedki", Minsk
-
+**07/2015 – current** - project manager, LLC "Vedki", Minsk  
 **04/2006 – 07/2015** - software engineer, RUE "Belnipienergoprom", Minsk
 ## Education
-**02/2021 – current**
-
+**02/2021 – current**  
 self-learning HTML5, CSS, JavaScript using sites _learn.javascript.ru_ and _developer.mozilla.org_
 
-**02/2021 – 04/2021**
-
+**02/2021 – 04/2021**  
 stage 1 of the training JavaScript Development (**RSSchool**):
 - basic HTML5;
 - basic CSS;
 - basic JavaScript;
-- basic Git;
+- basic Git;  
 
-**09/2001 – 06/2006**
-
+**09/2001 – 06/2006**  
 Belarusian State University, Faculty of Mechanics And Mathematics, Mathematician
 
 ## English
