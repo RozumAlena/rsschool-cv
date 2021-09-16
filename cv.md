@@ -35,7 +35,6 @@ function nicknameGenerator(name){
 ## Education
 **02/2021 – current**  
 self-learning HTML5, CSS, JavaScript using sites _learn.javascript.ru_ and _developer.mozilla.org_
-
 **02/2021 – 04/2021**  
 stage 1 of the training JavaScript Development (**RSSchool**):
 - basic HTML5;
