@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV-Rozum Elena</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header_photo">
+        <img src="./photo.png" alt="Rozum Elena" class="photo" />
+        <div>
+          <h1 class="name">Elena Rozum</h1>
+          <h3 class="job">Junior Frontend Developer</h3>
+        </div>
+      </header>
+      <main>
+        <div class="wrapper_info">
+          <aside class="info_left">
+            <section class="contacts">
+              <h3 class="section-title">Contacts</h3>
+              <ul class="contacts_info">
+                <li class="contacts_item">mobile +375447009312</li>
+                <li class="contacts_item">
+                  <a href="" class="contacts_item">
+                    e-mail: <span class="my-email">rozum.elena@gmail.com</span></a
+                  >
+                </li>
+                <li class="contacts_item">
+                  <a href="" class="contacts_item">telegram: Rozum Elena</a>
+                </li>
+                <li class="contacts_item">
+                  <a
+                    href="https://www.linkedin.com/in/elena-rozum-36822b207/"
+                    class="contacts_item"
+                    >LinkedIn: Rozum Elena</a
+                  >
+                </li>
+              </ul>
+            </section>
+            <section class="skills">
+              <h3 class="section-title">Professional Skills</h3>
+              <ul>
+                <li class="item_prof_skill">Maths</li>
+                <li class="item_prof_skill">HTML5</li>
+                <li class="item_prof_skill">CSS</li>
+                <li class="item_prof_skill">Git</li>
+                <li class="item_prof_skill">JavaScript</li>
+              </ul>
+            </section>
+            <section class="skills_com">
+              <h3 class="section-title">Communicate Skills</h3>
+              <ul>
+                <li class="item_com_skill">Communication</li>
+                <li class="item_com_skill">Flexibility</li>
+                <li class="item_com_skill">Teamwork</li>
+                <li class="item_com_skill">Problem-solving</li>
+                <li class="item_com_skill">Time management</li>
+                <li class="item_com_skill">Attentiveness</li>
+              </ul>
+            </section>
+            <section class="english">
+              <h3 class="section-title">English</h3>
+              <p class="english_subtitle">
+                B1 Intermediate(according to the online test at
+                <a href="https://www.efset.org/cert/et76cz" class="efset-link">
+                  <span class="efset-logo"></span></a
+                >)
+              </p>
+            </section>
+          </aside>
+          <aside class="info_right">
+            <section class="summary">
+              <h3 class="section-title">Summary</h3>
+              <p class="summary_subtitle">
+                Dynamic and determined software engineer with over 10 years of
+                successful experience in system administration and support of
+                document management and 3D-design for a large company. Devised
+                the project Math simulator for preschoolers and schoolchildren.<br>
+                I'm still interested in developing software. So I'm doing a
+                course «JavaScript/Front-end» in RSSchool.
+              </p>
+            </section>
+            <section class="experience">
+              <h3 class="section-title">Work experience</h3>
+              <ul>
+                <li class="item_experience_skill">
+                  <b>04/2006 - 07/2015</b> - engineer-programmer 2 category, RUP
+                  "Belnipienergoprom"
+                </li>
+                <li class="item_experience_skill">
+                  <b>08/2015 - present time</b> - mathematician, OOO "Vedki"
+                </li>
+              </ul>
+            </section>
+            <section class="education">
+              <h3 class="section-title">Education</h3>
+              <p class="education_subtitle">
+                higher edication, Belarusian State University, Faculty of
+                Mechanics and Mathematics
+              </p>
+            </section>
+            <section class="example">
+              <h3 class="section-title">code example</h3>
+              <pre class="code">
+                <code>
+function nicknameGenerator(name){
+  if (name.length < 4) return "Error: Name too short";
+  const arrVowels = ['a', 'e', 'i', 'o', 'u'];
+  return (arrVowels.includes(name[2]))? name.slice(0, 4) : name.slice(0,3); 
+}
+                </code>
+              </pre>
+            </section>
+          </aside>
+        </div>
+      </main>
+    </div>
+    <footer class="footer">
+      <a class="footer_link_git" href="https://github.com/RozumAlena"
+        >My GitHub</a
+      >
+      <a href="https://rs.school/js/"
+        ><img src="rs_school_js.svg" width="100" height="50" alt="Rs-School"
+      /></a>
+      <a class="footer_link_rs" href="https://rs.school/js/"
+        >JavaScript/Front-end Course, 2021</a
+      >
+    </footer>
+  </body>
+</html>
