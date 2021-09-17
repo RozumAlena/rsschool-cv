@@ -3,6 +3,7 @@
 - *mobile* +375447009312
 - *e-mail*: rozum.elena@gmail.com
 - *telegram*: Rozum Elena
+- [LinkedIn](https://www.linkedin.com/in/elena-rozum-36822b207/)
 ## Summary
 Dynamic and determined software engineer with over 10 years of successful experience in system administration and support of document management and 3D-design for a large company.
 Devised the project Math simulator for preschoolers and schoolchildren.
