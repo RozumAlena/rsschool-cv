@@ -106,7 +106,7 @@
               <pre class="code">
                 <code>
 function nicknameGenerator(name){
-  if (name.length < 4) return "Error: Name too short";
+  if (name.length &lt; 4) return "Error: Name too short";
   const arrVowels = ['a', 'e', 'i', 'o', 'u'];
   return (arrVowels.includes(name[2]))? name.slice(0, 4) : name.slice(0,3); 
 }
