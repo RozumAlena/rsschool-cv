@@ -2,11 +2,20 @@
   const header = document.querySelector('.header');
   window.onscroll = () => {
     if (window.pageYOffset > 50) {
-      header.classList.add('header_active')
+      header.classList.add('header_fixed')
     } else {
-      header.classList.remove('header_active')
+      header.classList.remove('header_fixed')
     }
   }
+})();
+
+(function() {
+  const burgerMenu = document.querySelector(".burger-menu");
+  const menu = document.querySelector(".header__navigation");
+  burgerMenu.addEventListener("click", () => {
+    menu.classList.toggle("header__navigation_active");
+    burgerMenu.classList.toggle("burger-menu_active");
+  })
 })();
 
 
